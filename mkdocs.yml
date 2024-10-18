@@ -1,8 +1,7 @@
 site_name: MkDocs песочница
 site_description: Этот сайт используется для изучения веб-разработки на Python с использованием MkDocs.
 site_author: Салимов Сергей
-# Custom
-site_date: 2024
+copyright: '2024'
 
 repo_url: https://github.com/mrskycriper/mkdocs-site-python
 
@@ -17,3 +16,4 @@ nav:
   - Резюме: cv.md
   - Отчёты:
     - Практика 1: reports/lab-1.md
+    - Практика 2: reports/lab-2.md
