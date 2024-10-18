@@ -1,0 +1,47 @@
+:root {
+    --bs-font-sans-serif: "Inter";
+}
+
+:root, [data-bs-theme="light"] {
+    /*Material Purple 300*/
+    --bs-primary: #BA68C8;
+    --bs-primary-rgb: 186, 104, 200;
+
+    /*Material Deep Purple 300*/
+    --bs-link-color: #9575CD;
+    --bs-link-color-rgb: 149, 117, 205;
+
+    /*Material Deep Purple 400*/
+    --bs-link-hover-color: #7E57C2;
+    --bs-link-hover-color-rgb: 126, 87, 194;
+}
+
+[data-bs-theme="dark"] {
+    /*Material Purple 400*/
+    --bs-primary: #AB47BC;
+    --bs-primary-rgb: 171, 71, 188;
+
+    /*Material Deep Purple 300*/
+    --bs-link-color: #9575CD;
+    --bs-link-color-rgb: 149, 117, 205;
+
+    /*Material Deep Purple 400*/
+    --bs-link-hover-color: #7E57C2;
+    --bs-link-hover-color-rgb: 126, 87, 194;
+}
+
+body::before {
+    background: none;
+}
+
+.navbar.bg-primary {
+    background-image: none;
+}
+
+.content-block {
+    border: #7E57C2 2px;
+}
+
+footer {
+    font-weight: 400;
+}

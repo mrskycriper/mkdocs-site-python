@@ -1,5 +1,3 @@
-# Welcome to MkDocs
+# Главная
 
-## Lab 1
-
-Hello world!
+Здесь пока пусто...

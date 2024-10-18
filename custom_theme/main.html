@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block htmltitle %}
+<title>{{ config.site_name }}</title>
+{% endblock %}
+
+{% block styles %}
+{{ super() }}
+<link href="{{ 'css/overrides.css'|url }}" rel="stylesheet">
+{% endblock %}
+
+{%- block search_button %}
+
+{%- endblock %}
+
+{%- block next_prev %}
+
+{%- endblock %}
+
+
+{% block footer %}
+<hr>
+<p>
+    {{config.site_author}}, {{config.copyright}}<br>
+    {{config.site_description}}
+</p>
+<hr>
+{% endblock %}
